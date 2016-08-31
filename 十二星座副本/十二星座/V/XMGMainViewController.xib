@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XMGMainViewController">
+            <connections>
+                <outlet property="BeiJingXingZuo" destination="que-2x-Isy" id="ODQ-ZW-vKh"/>
+                <outlet property="GeRenSheZhiCell" destination="7fn-MR-w79" id="8nq-Cc-Mwj"/>
+                <outlet property="HuanTouXiang" destination="Wge-aG-gaJ" id="fwY-dd-gHs"/>
+                <outlet property="HuiLaiView" destination="inm-af-vg6" id="Buh-Vh-BpY"/>
+                <outlet property="RiJiShuJuShangChuan" destination="TqQ-h6-yQX" id="jQq-rm-WvR"/>
+                <outlet property="ShouShiCell" destination="qa6-42-yAk" id="de5-UZ-hvn"/>
+                <outlet property="Tabelview" destination="3ao-wh-hV1" id="CmA-Xl-jTR"/>
+                <outlet property="XuanXingZuo" destination="Wge-aG-gaJ" id="d8q-cS-4tP"/>
+                <outlet property="XuanXingZuoLan" destination="lT0-cc-qwS" id="Ci3-gL-OdF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="XingZuoTouXiangXuanZe1" destination="Uet-V7-xPu" id="NHq-rN-AnQ"/>
+                <outletCollection property="XingZuoTouXiangXuanZe1" destination="g7X-4K-h3p" id="YiY-vl-aE8"/>
+                <outletCollection property="XingZuoTouXiangXuanZe1" destination="eZV-ZH-HcX" id="fZO-bK-ItR"/>
+                <outletCollection property="XingZuoTouXiangXuanZe1" destination="z30-BS-nkL" id="shb-LM-Xcy"/>
+                <outletCollection property="XingZuoTouXiangXuanZe1" destination="3fb-cx-BYP" id="NwA-oK-hbk"/>
+                <outletCollection property="XingZuoTouXiangXuanZe1" destination="5VE-Uq-9XO" id="tSA-ty-gFc"/>
+                <outletCollection property="XingZuoTouXiangXuanZe1" destination="AZh-vp-ezV" id="skT-gP-iRG"/>
+                <outletCollection property="XingZuoTouXiangXuanZe1" destination="DI8-GL-5be" id="hNd-yx-SFO"/>
+                <outletCollection property="XingZuoTouXiangXuanZe1" destination="TOk-JS-mdf" id="oos-Bq-LcH"/>
+                <outletCollection property="XingZuoTouXiangXuanZe1" destination="QxG-Ba-hC0" id="JPW-XJ-1p9"/>
+                <outletCollection property="XingZuoTouXiangXuanZe1" destination="hig-px-wmc" id="R66-SL-00S"/>
+                <outletCollection property="XingZuoTouXiangXuanZe1" destination="pPA-F8-peO" id="P8l-0C-dov"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="but00" id="que-2x-Isy">
+                    <rect key="frame" x="0.0" y="0.0" width="256" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="inm-af-vg6">
+                    <rect key="frame" x="255" y="0.0" width="65" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="uK7-pT-ZzJ" appends="YES" id="QfS-pC-jM6"/>
+                    </connections>
+                </view>
+                <visualEffectView opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" id="OZl-fR-JBb">
+                    <rect key="frame" x="0.0" y="161" width="256" height="407"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="4na-p5-Qgt">
+                        <rect key="frame" x="0.0" y="0.0" width="256" height="407"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wKr-gD-q8e">
+                                <rect key="frame" x="0.0" y="358" width="263" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.05544669193" blue="0.09975657081" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="退           出 ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="TuiChu:" destination="-1" eventType="touchUpInside" id="ayT-ts-K5l"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="3ao-wh-hV1">
+                                <rect key="frame" x="14" y="99" width="202" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="-1" id="S1v-qX-8de"/>
+                                    <outlet property="delegate" destination="-1" id="Ql1-wO-kza"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                    </view>
+                    <blurEffect style="light"/>
+                </visualEffectView>
+                <view contentMode="scaleToFill" id="lT0-cc-qwS">
+                    <rect key="frame" x="71" y="139" width="0.0" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Uet-V7-xPu">
+                            <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ztx00"/>
+                            <connections>
+                                <action selector="XingzuoTouXiang:" destination="-1" eventType="touchUpInside" id="e5K-47-VXv"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g7X-4K-h3p">
+                            <rect key="frame" x="35" y="0.0" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ztx01"/>
+                            <connections>
+                                <action selector="XingzuoTouXiang:" destination="-1" eventType="touchUpInside" id="4fe-lK-WS5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eZV-ZH-HcX">
+                            <rect key="frame" x="70" y="0.0" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ztx02"/>
+                            <connections>
+                                <action selector="XingzuoTouXiang:" destination="-1" eventType="touchUpInside" id="i1U-4k-DX7"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="z30-BS-nkL">
+                            <rect key="frame" x="140" y="0.0" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ztx04"/>
+                            <connections>
+                                <action selector="XingzuoTouXiang:" destination="-1" eventType="touchUpInside" id="VdZ-yu-CPU"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3fb-cx-BYP">
+                            <rect key="frame" x="175" y="0.0" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ztx05"/>
+                            <connections>
+                                <action selector="XingzuoTouXiang:" destination="-1" eventType="touchUpInside" id="V30-vp-ZFM"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AZh-vp-ezV">
+                            <rect key="frame" x="0.0" y="35" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ztx06"/>
+                            <connections>
+                                <action selector="XingzuoTouXiang:" destination="-1" eventType="touchUpInside" id="Uus-SD-dPa"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DI8-GL-5be">
+                            <rect key="frame" x="35" y="35" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ztx07"/>
+                            <connections>
+                                <action selector="XingzuoTouXiang:" destination="-1" eventType="touchUpInside" id="QSx-c6-LLI"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TOk-JS-mdf">
+                            <rect key="frame" x="70" y="35" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ztx08"/>
+                            <connections>
+                                <action selector="XingzuoTouXiang:" destination="-1" eventType="touchUpInside" id="vkk-8q-66W"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QxG-Ba-hC0">
+                            <rect key="frame" x="105" y="35" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ztx09"/>
+                            <connections>
+                                <action selector="XingzuoTouXiang:" destination="-1" eventType="touchUpInside" id="MDT-Ly-RTK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hig-px-wmc">
+                            <rect key="frame" x="140" y="35" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ztx10"/>
+                            <connections>
+                                <action selector="XingzuoTouXiang:" destination="-1" eventType="touchUpInside" id="9Rr-am-Kuh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pPA-F8-peO">
+                            <rect key="frame" x="175" y="35" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ztx11"/>
+                            <connections>
+                                <action selector="XingzuoTouXiang:" destination="-1" eventType="touchUpInside" id="Ufx-79-jZ9"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5VE-Uq-9XO">
+                            <rect key="frame" x="105" y="0.0" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ztx03"/>
+                            <connections>
+                                <action selector="XingzuoTouXiang:" destination="-1" eventType="touchUpInside" id="cgX-fi-tiM"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Wge-aG-gaJ">
+                    <rect key="frame" x="9" y="133" width="58" height="56"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="Gemini"/>
+                    <connections>
+                        <action selector="KaiQiXuanXingZuo:" destination="-1" eventType="touchUpInside" id="tq7-7n-ESk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="536" y="309"/>
+        </view>
+        <tapGestureRecognizer id="uK7-pT-ZzJ">
+            <connections>
+                <action selector="HuiJiaChuxianBut:" destination="-1" id="25J-xK-Ebo"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="38" id="7fn-MR-w79">
+            <rect key="frame" x="0.0" y="0.0" width="245" height="38"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7fn-MR-w79" id="jc7-W3-eJW">
+                <rect key="frame" x="0.0" y="0.0" width="245" height="37"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ZHshezhi" id="4sJ-8n-HuI">
+                        <rect key="frame" x="11" y="4" width="30" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="个人密码设置" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p18-Vq-5zf">
+                        <rect key="frame" x="49" y="8" width="153" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LmE-od-DY4">
+                        <rect key="frame" x="222" y="8" width="15" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="959.5" y="281"/>
+        </tableViewCell>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="38" id="qa6-42-yAk">
+            <rect key="frame" x="0.0" y="0.0" width="245" height="38"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qa6-42-yAk" id="4eQ-WE-XuL">
+                <rect key="frame" x="0.0" y="0.0" width="245" height="37"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手势密码设置" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="df5-0Y-eZt">
+                        <rect key="frame" x="46" y="8" width="153" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SSmima" id="IeN-hz-hhq">
+                        <rect key="frame" x="13" y="6" width="25" height="25"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sOT-Rf-EqL">
+                        <rect key="frame" x="222" y="7" width="15" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="959.5" y="178"/>
+        </tableViewCell>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="38" id="TqQ-h6-yQX">
+            <rect key="frame" x="0.0" y="0.0" width="245" height="38"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TqQ-h6-yQX" id="FRx-qh-Gqg">
+                <rect key="frame" x="0.0" y="0.0" width="245" height="37"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rijishangchuan" id="Oer-z2-foc">
+                        <rect key="frame" x="11" y="4" width="30" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日记数据管理" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0cp-19-hpi">
+                        <rect key="frame" x="49" y="8" width="153" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AkP-Lf-kGj">
+                        <rect key="frame" x="222" y="8" width="15" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="959.5" y="387"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Gemini" width="128" height="128"/>
+        <image name="SSmima" width="128" height="128"/>
+        <image name="ZHshezhi" width="128" height="128"/>
+        <image name="but00" width="700" height="1243"/>
+        <image name="rijishangchuan" width="128" height="128"/>
+        <image name="ztx00" width="128" height="128"/>
+        <image name="ztx01" width="128" height="128"/>
+        <image name="ztx02" width="128" height="128"/>
+        <image name="ztx03" width="128" height="128"/>
+        <image name="ztx04" width="128" height="128"/>
+        <image name="ztx05" width="128" height="128"/>
+        <image name="ztx06" width="128" height="128"/>
+        <image name="ztx07" width="128" height="128"/>
+        <image name="ztx08" width="128" height="128"/>
+        <image name="ztx09" width="128" height="128"/>
+        <image name="ztx10" width="128" height="128"/>
+        <image name="ztx11" width="128" height="128"/>
+    </resources>
+</document>

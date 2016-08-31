@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  十二星座
+//
+//  Created by kiss-minmin on 16/6/26.
+//  Copyright © 2016年 Tarena. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "User.h"
+#import <BmobSDK/Bmob.h>
+#import "UIimage+TuPianLuJing.h"
+#import "UIButton+ButtonYangShi.h"
+#import "UIColor+YanSeZhuanHuan.h"
+#import "NSString+ZiFuZhuanHuanYS.h"
+#import "MBProgressHUD.h"
+#import "GestureViewController.h"
+#import "GestureVerifyViewController.h"
+#import "PCCircleViewConst.h"
+#endif /* PrefixHeader_pch */
